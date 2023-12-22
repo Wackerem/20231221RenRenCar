@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/carInfo/index/index",
+    "pages/gasolineInfo/index/index",
+    "pages/userInfo/index/index",
+    "pages/carInfo/perfectInfo/perfectInfo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/carInfo/index/index",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "您的汽车"
+      },
+      {
+        "pagePath": "pages/gasolineInfo/index/index",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "汽油管理"
+      },
+      {
+        "pagePath": "pages/userInfo/index/index",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

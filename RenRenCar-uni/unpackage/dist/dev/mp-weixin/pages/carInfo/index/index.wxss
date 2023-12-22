@@ -1,0 +1,39 @@
+/* 水平间距 */
+/* 水平间距 */
+.grid-item-box {
+  text-align: center;
+}
+.demo-uni-row {
+  margin-bottom: 10px;
+}
+.demo-uni-col {
+  height: 36px;
+  border-radius: 5px;
+}
+.dark_deep {
+  background-color: #99a9bf;
+}
+.swiper-box {
+  height: 200px;
+}
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #fff;
+}
+.image {
+  width: 750rpx;
+}
+@media screen and (min-width: 500px) {
+.uni-swiper-dot-box {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.image {
+    width: 100%;
+}
+}
